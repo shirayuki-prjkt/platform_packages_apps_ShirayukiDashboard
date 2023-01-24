@@ -45,5 +45,5 @@ abstract class ShirayukiTogglePreferenceController(
         setChecked(isChecked)
     }
 
-    override fun getSliceHighlightMenuRes() = R.string.menu_key_syberia
+    override fun getSliceHighlightMenuRes() = R.string.menu_key_shirayuki
 }

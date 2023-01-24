@@ -22,7 +22,7 @@ import com.android.internal.logging.nano.MetricsProto
 import com.android.settings.dashboard.DashboardFragment
 
 abstract class ShirayukiDashboardFragment: DashboardFragment() {
-    override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.SYBERIA
+    override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.SHIRAYUKI
 
     override fun onDisplayPreferenceDialog(preference: Preference) {
         super.onDisplayPreferenceDialog(preference)

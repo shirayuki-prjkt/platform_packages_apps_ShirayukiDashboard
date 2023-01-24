@@ -1,5 +1,6 @@
 /*
  * Copyright © 2018-2019 Syberia Project
+ * Copyright © 2023 ShirayukiProject
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,11 +30,11 @@ public class ShirayukiSettings extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-        addPreferencesFromResource(R.xml.syberia_settings);
+        addPreferencesFromResource(R.xml.shirayuki_settings);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SYBERIA;
+        return MetricsProto.MetricsEvent.SHIRAYUKI;
     }
 }
